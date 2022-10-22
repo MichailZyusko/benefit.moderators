@@ -1,10 +1,10 @@
 import { Route, Routes } from 'react-router-dom';
+import ProductsPage from '../pages/products';
 
 export default function Router() {
   return (
     <Routes>
-      <Route path="/" element={<div />} />
-      <Route path="/dumps" element={<span>123</span>} />
+      <Route path="/products" element={<ProductsPage />} />
     </Routes>
   );
 }
